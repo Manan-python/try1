@@ -14,7 +14,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/Manan-python/try1/main/data/zomato2.csv"
+        "url": "https://raw.githubusercontent.com/Manan-python/try1/main/data/zomato3.csv"
       },
       "mark": {"type": "triangle", "tooltip": {"content": "data"}},
       "encoding": {
