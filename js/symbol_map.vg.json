@@ -21,10 +21,7 @@
         "longitude": {"field": "Longitude", "type": "quantitative"},
         "latitude": {"field": "Latitude", "type": "quantitative"},
         "size": {
-          "field": "Dining_Rating",
-          "type": "quantitative",
-          "title": "No of races"
-          "scale": {"domain": [0,5]}
+          "field": {"value": 1}
         }
       }
     }
