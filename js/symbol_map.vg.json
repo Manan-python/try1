@@ -14,18 +14,24 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/Manan-python/FIT3179W9HW/main/data/no%20of%20races%20location%20wise.csv"
+        "url": "https://raw.githubusercontent.com/Manan-python/try1/main/data/zomato.csv?token=GHSAT0AAAAAABZFWPVYDC36WNTPPZ2ZTJ4IY2CDIAQ"
       },
       "mark": {"type": "circle", "tooltip": {"content": "data"}},
       "encoding": {
-        "longitude": {"field": "lng", "type": "quantitative"},
-        "latitude": {"field": "lat", "type": "quantitative"},
+        "longitude": {"field": "Longitude", "type": "quantitative"},
+        "latitude": {"field": "Latitude", "type": "quantitative"},
         "size": {
-          "field": "Count",
+          "field": "Dining_Rating",
           "type": "quantitative",
-          "title": "No of races",
-          "scale": {"domain": [0,80]}
-        }
+          "title": "No of races"
+          "scale": {"domain": [0,5]}
+        },
+        "color": {
+          "field": "depth",
+          "type": "quantitative",
+          "title": "Pricing_for_2",
+          "scale": {"scheme": "reds"}
+}
       }
     }
   ]
