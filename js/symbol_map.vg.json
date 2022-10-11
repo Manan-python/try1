@@ -21,7 +21,7 @@
         "longitude": {"field": "Longitude", "type": "quantitative"},
         "latitude": {"field": "Latitude", "type": "quantitative"},
         "size": {
-          "field": {"value": 0.1}
+          "field": {"value": 1}
         },
         "color": {
           "field": "Price_range",
