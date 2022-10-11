@@ -14,7 +14,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/Manan-python/try1/main/data/zomato3.csv"
+        "url": "https://raw.githubusercontent.com/Manan-python/try1/main/data/zomato5.csv"
       },
       "mark": {"type": "circle", "tooltip": {"content": "data"}},
       "encoding": {
@@ -22,6 +22,10 @@
         "latitude": {"field": "Latitude", "type": "quantitative"},
         "size": {
           "field": {"value": 0.1}
+        },
+        "color": {
+          "field": "Price_range",
+          "type": "qualitative"
         }
       }
     }
