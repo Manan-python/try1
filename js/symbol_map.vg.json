@@ -25,7 +25,7 @@
         },
         "color": {
           "field": "Price_range",
-          "type": "qualitative"
+          "type": "nominal"
         }
       }
     }
